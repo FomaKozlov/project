@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="dima.css">
+</head>
+<body class="index">
+	<div class="index1">
+		<div class="index2">
+			<div class="container">
+				<input type="button" name="" class="ikon">
+				<div id="ikon1" class="ikon1">
+					<input id="showImageButton" class="joinBtn" type="button" value="Доходы">
+					<input id="showImageButton1" class="joinBtn" type="button" value="Расходы">
+					<input id="showImageButton2" class="joinBtn" type="button" value="Баланс">
+					<input id="showImageButton3" class="joinBtn" type="button" value="Поддержка">
+				</div>
+			</div>
+		</div>		
+		<div class="myBlock" id="myImage">
+			<div class="text1">Пополнение на счёт</div>
+			<div class="input-cont">
+				<input type="number" name="" class="input" id="input_1" placeholder="За январь">
+				<input type="number" name="" class="input" id="input_2" placeholder="За февраль">
+				<input type="number" name="" class="input" id="input_3" placeholder="За март">
+				<input type="number" name="" class="input" id="input_4" placeholder="За апрель">
+				<input type="number" name="" class="input" id="input_5" placeholder="За май">
+				<input type="number" name="" class="input" id="input_6" placeholder="За июнь">
+				<input type="number" name="" class="input" id="input_7" placeholder="За июль">
+				<input type="number" name="" class="input" id="input_8" placeholder="За август">
+				<input type="number" name="" class="input" id="input_9" placeholder="За сентябрь">
+				<input type="number" name="" class="input" id="input_10" placeholder="За октябрь">
+				<input type="number" name="" class="input" id="input_11" placeholder="За ноябрь">
+				<input type="number" name="" class="input" id="input_12" placeholder="За декабрь">
+				<div class="container">
+					<input class="input1" type="text" id="result" readonly placeholder="Доход а всё время">
+					<button class="button" id="calculateBtn">Сложить</button>
+				</div>
+				<div class="container">
+					<input class="input1" type="text" id="result1" readonly placeholder="Средний доход">
+					<button class="button" id="calculateBtn1">Рассчитать</button>
+				</div>
+				<button id="showPopup" class="button1">Показать диаграмму доходов</button>
+				<canvas id="myChart" width="500" height="300" class="block"></canvas>
+			</div>
+		</div>
+		<div class="myBlock" id="myImage1">
+			<div class="text1">Траты</div>
+			<div class="input-cont1">
+				<input type="number" name="" class="input" id="input1" placeholder="За январь">
+				<input type="number" name="" class="input" id="input2" placeholder="За февраль">
+				<input type="number" name="" class="input" id="input3" placeholder="За март">
+				<input type="number" name="" class="input" id="input4" placeholder="За апрель">
+				<input type="number" name="" class="input" id="input5" placeholder="За май">
+				<input type="number" name="" class="input" id="input6" placeholder="За июнь">
+				<input type="number" name="" class="input" id="input7" placeholder="За июль">
+				<input type="number" name="" class="input" id="input8" placeholder="За август">
+				<input type="number" name="" class="input" id="input9" placeholder="За сентябрь">
+				<input type="number" name="" class="input" id="input10" placeholder="За октябрь">
+				<input type="number" name="" class="input" id="input11" placeholder="За ноябрь">
+				<input type="number" name="" class="input" id="input12" placeholder="За декабрь">
+				<div class="container">
+					<input class="input1" type="text" id="result2" readonly placeholder="Расход за всё время">
+					<button class="button" id="calculateBtn2">Сложить</button>
+				</div>
+				<div class="container">
+					<input class="input1" type="text" id="result3" readonly placeholder="Средний доход">
+					<button class="button" id="calculateBtn3">Рассчитать</button>
+				</div>
+				<button id="showPopup1" class="button1">Показать диаграмму расходов</button>
+				<div class="block">
+					<canvas id="myChart1" width="500" height="300" class="block"></canvas>
+				</div>
+			</div>
+		</div>
+		<div class="myBlock" id="myImage2">
+			<div class="input-cont2">
+				<div class="text1">У вас на счёте</div>
+				<input class="input2" type="text" id="result4" readonly placeholder="Голда не на балике">
+				<button class="button" id="calculateBtn4">Баланс</button>
+				<button class="button2">История доходов и расходов</button>
+				<div id="output"></div>
+			</div>
+		</div>
+		<div class="myBlock" id="myImage3">
+			<div class="input-cont3">
+				<div class="text2">Вы сможете связаться с нами, если есть какие-то неполадки по сайту.</div>
+				<div class="text3">Диспетчер</div>
+				<div class="boss"></div>
+				<div class="text4">+7 800 535 35 35 ✆</div>
+				<div class="container">
+					<div class="text5">Мы доступны в социальных сетях:</div>
+					<a href="https://chat.whatsapp.com/GIRHVz71XT09Lm6hTyUaBI"><div class="logo1"></div></a>
+				</div>
+				<a href="https://t.me/WotPUB"><div class="logo2"></div></a>
+				<a href="https://vk.com/stud_nit?from=search"><div class="logo3"></div></a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="dima.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
